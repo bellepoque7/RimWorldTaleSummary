@@ -104,7 +104,7 @@ def print_pawn_info(file_path):
 #print_description_tags(file_path)
 
 def summarize_description(file_path):
-    api_key = 'sk-proj-RB265txW8rQS3jr44cJiT3BlbkFJaNnvartQEnkpbUURxnkK'
+    api_key = ''
 
     client = openai.OpenAI(api_key=api_key)
     tree = ET.parse(file_path)
